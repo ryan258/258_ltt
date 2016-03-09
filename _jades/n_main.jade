@@ -1,0 +1,70 @@
+nav.navbar.navbar-default
+  .container-fluid
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false").navbar-toggle.collapsed
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a(href="{{ site.baseurl }}/").navbar-brand Lowertown Today
+
+    // Collect the nav links, forms, and other content for toggling
+    .collapse.navbar-collapse#bs-example-navbar-collapse-1
+      ul.nav.navbar-nav
+        
+        li: a(href="{{ site.baseurl }}/news") News
+        li: a(href="{{ site.baseurl }}/sports") Sports
+        li: a(href="{{ site.baseurl }}/food") Food
+        li: a(href="{{ site.baseurl }}/events") Events
+        // li: a(href="{{ site.baseurl }}/life") Life
+        li.dropdown
+          a(href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle LPs <span class="caret"></span>
+          ul.dropdown-menu
+            li: a(href="{{ site.baseurl }}/farmers-market") Farmers' Market
+            li: a(href="{{ site.baseurl }}/happy-hour") Happy Hour
+            // li <a href="#">Blog Post</a>
+            // li(role="separator").divider
+            // li <a href="/services">Services</a>
+            // li(role="separator").divider
+            // li <a href="#">One more separated link</a>
+
+      ul.nav.navbar-nav.navbar-right
+        //li: a(href="#") Link
+        //li.dropdown
+          //a(href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle <span class="caret"></span>
+          //ul.dropdown-menu
+            //li: a(href="{{ site.baseurl }}/services/") Overview
+        li.dropdown
+          a(href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle CTs <span class="caret"></span>
+          ul.dropdown-menu
+            li: a(href="{{ site.baseurl }}/ct/") Overview
+            li: a(href="{{ site.baseurl }}/ct/article") Article
+            li: a(href="{{ site.baseurl }}/ct/building") Building
+            li: a(href="{{ site.baseurl }}/ct/establishment") Establishment
+            li: a(href="{{ site.baseurl }}/ct/event") Event
+            li: a(href="{{ site.baseurl }}/ct/landing-page") Landing Page (LP)
+        li.dropdown
+          a(href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false").dropdown-toggle 25/8 <span class="caret"></span>
+          ul.dropdown-menu
+            li: a.h4 Project Links
+            //li: a(href="https://drive.google.com/open?id=0B4D2GCob1WryS1llbG5fV3g0aWs" target="_blank") MG | Google Docs
+            li: a(href="#" target="_blank") LtT | FB Page
+            li: a(href="#" target="_blank") LtT | Twitter
+            li: a(href="#" target="_blank") LtT | YouTube
+            li: a(href="#" target="_blank") LtT | Instagram
+            li: a(href="#" target="_blank") LtT | Pinterest
+            li(role="separator").divider
+            li: a.h4 25/8 Links
+            li: a(href="https://drive.google.com/open?id=0B4D2GCob1WryS1llbG5fV3g0aWs" target="_blank") 25/8 | Google Docs
+            li: a(href="https://www.facebook.com/groups/194475130907094/" target="_blank") 25/8 | Facebook Group
+            li(role="separator").divider
+            li: a 
+              i.fa.fa-user
+              span  Ryan
+            li: a 
+              i.fa.fa-phone
+              span  612-306-7209
+            li: a 
+              i.fa.fa-envelope-o
+              span  ryan@258webco.com

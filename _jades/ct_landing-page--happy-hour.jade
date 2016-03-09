@@ -1,0 +1,17 @@
+.row(ng-controller="HhController as hour")
+  .col-sm-12
+    h1 LtT's Guide to the Lowertown Happy Hours
+    h2 {{hour.special.where}}
+  .hh--what {{hour.special.what}}
+  .hh--day {{hour.special.day}}
+  .hh--price {{hour.special.price}}
+.row 
+  .content_body.col-sm-9
+    p.lead Delicious Apps, Beers, and Drinks Coming Soon!
+    .row
+      p.col-sm-12 
+  .content_nav.col-sm-3
+    p
+      | {% include b_ef--happy-hour.html %}
+    
+  .col-sm-3

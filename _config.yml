@@ -1,0 +1,5 @@
+name: LtT
+markdown: kramdown # redcarpet
+highlighter: rouge # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+#baseurl: http://ryan258.github.io/258_ltt
